@@ -20,13 +20,13 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'testdb');
+define('DB_NAME', 'bitnami_wordpress');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'bn_wordpress');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'hinh1234');
+define('DB_PASSWORD', 'a0fc009c53');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
@@ -46,14 +46,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'SOxJm;sjwWMT7Z?#MTTrS|EO;U>xedX+P+CvoWu6HQNmAc2aVwM,91>t4>Iy-ED>');
-define('SECURE_AUTH_KEY',  '_)AcRc?5QFv>2GGUl}:WlY}xt@+[+|Q|TwE)>uW*PmZbiS$$M*uesL$x|N2Fd*^a');
-define('LOGGED_IN_KEY',    'Xno4GH[@tgj4!9G<F[|LIb(pRCs+a=@R|Ga=-cpv%Mks6Gf50f4NHNr6w~ 1`*uW');
-define('NONCE_KEY',        'O9msvqA3(Y,$j9xsr<|VMBN)u$2F4gK79WS4($;sWWZQz;xufEj;1lI-xw {%qib');
-define('AUTH_SALT',        'aT{gnSvq(TiIp}o!2`jCwo_kb1naa3%*MyPgBfg}O3dX5J2r.+Yu9?!kj(^w) p+');
-define('SECURE_AUTH_SALT', '=ACO4!ryJt@+iq@ rV9Q6d(f8nmL3M*@[5Z~^-=Nh^Gi;<vD+B/d89?mATnmVGZ?');
-define('LOGGED_IN_SALT',   '`n/.gUIzMrwHaO}GN&h!Q,W@1p>D@&lxkDnIFnMr^-M5VR#NkvbLBQ0TvP&?gXI5');
-define('NONCE_SALT',       '}x.}hHwE?7V]2q +5(]/O-cl?3m>mz8{6q=#i3p7HYXW%fWlcr&g1nw8b~jZ^/)b');
+define('AUTH_KEY', '670c7dc204de1fd3bba7b07f76798f9107efe95d533098db11b28b8e9f0364f4');
+define('SECURE_AUTH_KEY', 'ebfd493399f29c16d7c2325ad57bd4d8ebeb2dee2de4c0d2b573e35b77334983');
+define('LOGGED_IN_KEY', 'a20dfa4ebc2d918c5704ea940eab2af861bae44bef655c88858742155573e391');
+define('NONCE_KEY', '0846ff0fd9d4b24250de473352c2adb13617c2eb21e98206bf123b6733fa3e68');
+define('AUTH_SALT', 'fe4d73edd8967fbd20c34d5de2fffe80ba7b64cf9e9c57e0bd99180371de326b');
+define('SECURE_AUTH_SALT', '7a9fb316737774725f36b5a1b46c464acb99349457dcfb34908773f0fa133756');
+define('LOGGED_IN_SALT', 'f260331876bd5a4f9572fd0049300f3da006275e28b2af9fad0e445ac2d57675');
+define('NONCE_SALT', '2c7aec56eea8a30b79424107a228dfa023148dfe35b1865bdb3185c645b18253');
 
 /**#@-*/
 
